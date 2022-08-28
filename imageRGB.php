@@ -214,7 +214,7 @@ by going over each pixel in the image*/
 		}
 		$keys = array_keys($this->topColorsKeys);
 		foreach ($keys as $key) {
-			$this->pickPercentage[] = ($this->topColors[$key] * 100) / $this->sumOfType;
+			$this->pickPercentage[] = round(($this->topColors[$key] * 100) / $this->sumOfType, 2);
 		}
 	}
 

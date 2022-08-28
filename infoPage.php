@@ -77,7 +77,7 @@ function debug_to_console($data)
     echo "</tr>";
     echo "<tr>";
     $percentageValue = $fivePercentageValue[$i];
-    echo "<td  style='font-weight:bold; '> $percentageValue </td>";
+    echo "<td  style='font-weight:bold; '> $percentageValue% </td>";
     echo "</tr>";
     $i++;
   }
